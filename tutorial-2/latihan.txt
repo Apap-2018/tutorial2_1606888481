@@ -1,0 +1,22 @@
+Latihan Project Viral
+1a.Tidak
+ b.Whitelabel error,not found. Tetapi saat dimasukkan /viral2jari muncul seperti sebelumnya
+ c.Untuk menentukan routing    
+2a.Tidak
+ b.Tidak terjadi perubahan, karena requestmapping akan menjalankan fungsi yang dibawahnya
+3a.Tidak
+ b.Ada eror terjadi karena target template viral2jari, dan itu tidak ada
+
+Latihan request parameter
+1.Setelah saya mencoba menaruh “hehe” tanpa tagging p, dan dengan tagging p tetapin tanpa th:text(<p>hehe</p>) ke2nya muncul, saya mengambil kesimpulan th:text yang membuat “in my feeling tidak keluar”
+2.Eror jika masuk ke “/challenge” tetapi bisa masuk ke “/viral/challenge” karena routing telah diubah kesana
+3.a.eror karena tidak ada parameter
+  b.Bisa masuk tetapi nama menjadi null, karena parameter tidar required akan tetap masuk ke page tapi tanpa value nama
+  c.Bisa masuk nama menjadi kiki, value nama default disetting jadi jika tidak deiberi parameter akan masuk dengan defaultnya yaitu kiki
+  
+Latihan Path Variable
+1. eror, karena tidak ada parameter
+2. eror, ambigous handler method, maka saya comment request mapping sebelumnya dan bisa masuk dan namanya KB
+3. masuk dan namanya kiki karena parameternya dimasukkan kiki
+
+
